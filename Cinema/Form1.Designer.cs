@@ -42,18 +42,20 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Tahoma", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(89, 9);
+            this.label1.Location = new System.Drawing.Point(67, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(253, 28);
+            this.label1.Size = new System.Drawing.Size(212, 23);
             this.label1.TabIndex = 0;
             this.label1.Text = "Добро пожаловать! ";
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button1.Location = new System.Drawing.Point(12, 105);
+            this.button1.Location = new System.Drawing.Point(9, 85);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(411, 32);
+            this.button1.Size = new System.Drawing.Size(308, 26);
             this.button1.TabIndex = 1;
             this.button1.Text = "Расписание сеансов";
             this.button1.UseVisualStyleBackColor = true;
@@ -62,9 +64,10 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.button2.Location = new System.Drawing.Point(12, 187);
+            this.button2.Location = new System.Drawing.Point(9, 152);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(411, 32);
+            this.button2.Size = new System.Drawing.Size(308, 26);
             this.button2.TabIndex = 2;
             this.button2.Text = "Купить или забронировать билет";
             this.button2.UseVisualStyleBackColor = true;
@@ -73,54 +76,59 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(12, 47);
+            this.label2.Location = new System.Drawing.Point(9, 38);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(290, 16);
+            this.label2.Size = new System.Drawing.Size(227, 13);
             this.label2.TabIndex = 3;
             this.label2.Text = "Если Вы не знаете, что хотите посмотреть ";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(12, 63);
+            this.label3.Location = new System.Drawing.Point(9, 51);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(328, 16);
+            this.label3.Size = new System.Drawing.Size(254, 13);
             this.label3.TabIndex = 4;
             this.label3.Text = "или просто хотите уточнить расписание сеанов, ";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(12, 79);
+            this.label4.Location = new System.Drawing.Point(9, 64);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(270, 16);
+            this.label4.Size = new System.Drawing.Size(213, 13);
             this.label4.TabIndex = 5;
             this.label4.Text = "выбирете раздел \"расписание сеансов\"";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 152);
+            this.label5.Location = new System.Drawing.Point(7, 124);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(445, 16);
+            this.label5.Size = new System.Drawing.Size(348, 13);
             this.label5.TabIndex = 6;
             this.label5.Text = "Если Вы уже выбрали сеанс и хотите купить/забронировать билет";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(9, 168);
+            this.label6.Location = new System.Drawing.Point(7, 136);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(174, 16);
+            this.label6.Size = new System.Drawing.Size(137, 13);
             this.label6.TabIndex = 7;
             this.label6.Text = "пройдите по кнопке ниже";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.LightSlateGray;
-            this.ClientSize = new System.Drawing.Size(483, 266);
+            this.ClientSize = new System.Drawing.Size(362, 216);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -129,8 +137,10 @@
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
