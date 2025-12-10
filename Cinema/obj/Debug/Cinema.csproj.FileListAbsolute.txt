@@ -1,0 +1,14 @@
+D:\3 курс\Cinema\bin\Debug\Cinema.exe.config
+D:\3 курс\Cinema\bin\Debug\Cinema.exe
+D:\3 курс\Cinema\bin\Debug\Cinema.pdb
+D:\3 курс\Cinema\obj\Debug\Cinema.csproj.AssemblyReference.cache
+D:\3 курс\Cinema\obj\Debug\Cinema.Form1.resources
+D:\3 курс\Cinema\obj\Debug\Cinema.Form2.resources
+D:\3 курс\Cinema\obj\Debug\Cinema.Form3.resources
+D:\3 курс\Cinema\obj\Debug\Cinema.Properties.Resources.resources
+D:\3 курс\Cinema\obj\Debug\Cinema.csproj.GenerateResource.cache
+D:\3 курс\Cinema\obj\Debug\Cinema.csproj.CoreCompileInputs.cache
+D:\3 курс\Cinema\obj\Debug\Cinema.exe
+D:\3 курс\Cinema\obj\Debug\Cinema.pdb
+D:\3 курс\Cinema\obj\Debug\Cinema.exe.config
+D:\3 курс\Cinema\bin\Debug\C.accdb
